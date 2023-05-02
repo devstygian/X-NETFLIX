@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Netflix</title>
+
+    <link rel="stylesheet" href="Secondcolor.css">
+    <link rel="website icon" type="png" href="Netflix logo.png">
+</head>
+
+<body>
+
+    <script src="https://kit.fontawesome.com/f02a36f28e.js" crossorigin="anonymous"></script>
+
+    <div class="maincon">
+        <div class="mainbox">
+            <p class="xnetflix">NETFLIX</p>
+
+
+            <section class="lang">
+                <div class="mundo">
+                    <a class="mundo" href="">
+                        <i class="fa-solid fa-globe"></i> English
+                    </a>
+                </div>
+                <div class="signbox">
+                    <Button class="Sign-in" onclick=""><a class="signword" href="../login.html">Sign
+                            In</a></Button>
+                </div>
+            </section>
+
+
+            <div class="word">
+                <p class="bigword">Unlimited movies, TV <br>shows,and more</p>
+                <p class="smallword">Watch anywhere. Cancel anytime.</p>
+                <p class="smallword">Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+
+
+            <div class="form-box">
+                <form id="register" class="input-group">
+                    <form>
+                        <input type="email" class="input-field" id="email" name="email" placeholder="Email Address"
+                            required>
+                        <button type="submit" class="btn">Get Started</button>
+                        <div id="email-error-message" style="display: none;">Please enter a valid email address.</div>
+                    </form>
+                </form>
+
+                <script>
+                    const form = document.querySelector('form');
+                    const emailInput = document.querySelector('#email');
+                    const errorMessage = document.querySelector('#email-error-message');
+
+                    form.addEventListener('submit', (event) => {
+                        if (!emailInput.checkValidity()) {
+                            event.preventDefault();
+                            errorMessage.style.display = 'block';
+                        }
+                    });
+                </script>
+
+                <div class="con-box">
+                    <p class="enjoy">Enjoy on your TV</p>
+                    <p class="enjoy-note">Watch on Smart TVs, Playstation, Xbox, Chromecast,<br> Apple TV, Blu-ray
+                        players, and more.</p>
+                    <img class="img1" src="en(1).png">
+                    <div class="line1"></div>
+
+                    <img class="img2" src="en (2).png">
+                    <p class="watch">Watch everywhere</p>
+                    <p class="watch-note">Stream unlimited movies and TV shows on your phone, <br> tablet, laptop, and
+                        TV.</p>
+                    <div class="line2"></div>
+
+                    <p class="create">Create profiles for kids</p>
+                    <p class="kids-note">Send kids on adventures with their favorite characters in<br> a space made just
+                        for them—free with your membership.</p>
+                    <img class="img3" src="en (3).png">
+                    <div class="line3"></div>
+
+                    <img class="img4" src="en (4).png">
+                    <p class="Download">Download your shows<br> to watch offline</p>
+                    <p class="save-note">Save your favorites easily and always have something to <br> watch.</p>
+
+                </div>
+
+                <div class="twoinone">
+                    <div class="word2">
+                        <p class="smallword2">Ready to watch? Enter your email to create or restart your membership.</p>
+                    </div>
+
+                    <div class="form-box2">
+                        <form id="register" class="input-group">
+                            <form>
+                                <input type="email" class="input-field" id="email" name="email"
+                                    placeholder="Email Address" required>
+                                <button type="submit" class="btn">Get Started</button>
+                                <div id="email-error-message" style="display: none;">Please enter a valid email address.
+                                </div>
+                            </form>
+                        </form>
+                    </div>
+                </div>
+
+                <section class="footer">
+                    <div class="social">
+
+                        <a class="contact" href="#">Questions? Contact us.</a>
+
+                        <p class="FQ"><a class="FQ" href="#">FAQ</a></p>
+
+                        <p class="cooke"><a class="cooke" href="#">Cookie Preferences</a></p>
+
+                        <p class="center"><a class="center" href="#">Help Center</a></p>
+
+                        <p class="info"><a class="info" href="#">Corporate Information</a></p>
+
+                        <p class="Terms"><a class="Terms" href="#">Terms of Use</a></p>
+
+                        <p class="privacy"><a class="privacy" href="#">Privacy</a></p>
+
+
+                        <section class="lang2">
+                            <div class="mundo2">
+
+                                <a class="mundo2" href="">
+                                    <i class="fa-solid fa-globe"></i> English
+                                </a>
+
+                            </div>
+                        </section>
+
+
+                    </div>
+                    <p class="copy2">DevStygian © 2023 | ALL RIGHTS RESERVED</p>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

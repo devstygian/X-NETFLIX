@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.xnetflix{
+    color: red;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+        
+}
+.signin {
+    color: #ffff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 15% 10%;
+}
+.mainbox {
+    height: 150%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(Netflix-Background.jpg);
+    margin-top: -10px;
+    background-size: cover;
+    position:absolute;
+    background-repeat: repeat;
+}
+
+.form-box {
+    width: 400px;
+    height: 530px;
+    position: relative;
+    margin: 7% auto;
+    /* border: 1px rgb(0, 255, 200) solid; */
+    background: #0a0a0acb;
+    border-radius: 15px;
+    padding: 5px;
+
+    overflow: hidden;
+}
+.input-group {
+    top: 140px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    margin: 0 10%;
+
+}
+.input-field {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid #ff6600;
+    border-radius: 5px;
+    outline: none;
+    background: rgb(24, 24, 24);
+    font-size: 18px;
+    color: #ffff;
+}
+
+.input:focus,
+.input-field:focus {
+    border: 2px solid #ff0000;
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 45px;
+    cursor: pointer;
+    display: block;
+    
+    background: rgb(255, 0, 0);
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    color: #ffff;
+    
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 50px;
+
+}
+
+input[type="checkbox"] {
+    background-color: #000000;
+}
+.words{
+    color: #ffff;
+    margin-top: 10px;
+}
+.help {
+    /*border: #ff0000 1px solid;*/
+   margin-top: -5%;
+    margin-left: 75%;
+    font-size: 14px;
+    
+}
+.helps {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.ask{
+    margin-top: 50px;
+    color: #7c7676;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.bot{
+    color: #7c7676;
+    font-size: 14px;
+}
+.learn{
+    color: #008bfd;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.signup {
+    color: #ffff;
+    outline: none;
+    text-decoration: none;
+}
+
+.footer {
+
+    margin-top: 13.5%;
+    padding: 20px 0;
+    background-color: #0a0a0acb;
+    
+
+}
+
+.footer .social {
+   /*display: flex;
+    flex-wrap: wrap;*/
+    justify-content: center;
+   margin-left: 11%;
+    padding: 25px;
+}
+
+.contact {
+    font-size: 18px;
+    color: #7c7676;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+   
+}
+
+.FQ{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #7c7676;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.cooke{
+    
+    font-size: 14px;
+    color: #7c7676;
+    text-decoration: none;
+}
+
+.center{
+    margin-top: -53px;
+    margin-left: 126px;
+    font-size: 14px;
+    color: #7c7676;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.info{
+     margin-top: 10px;
+    margin-left: 126px;
+    font-size: 14px;
+    color: #7c7676;
+    text-decoration: none;
+}
+.Terms {
+    margin-top: -52px;
+    margin-left: 250px;
+    font-size: 14px;
+    color: #7c7676;
+    text-decoration: none;
+}
+.privacy{
+    margin-top: -17px;
+    margin-left: 375px;
+    font-size: 14px;
+    color: #7c7676;
+    text-decoration: none;
+}
+
+.lang .mundo {
+    
+    padding: 25px;
+    
+}
+.lang .mundo a {
+    font-size: 1rem;
+    color: #7c7676;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-decoration: none;
+
+    padding: 10px 15px;
+    background-color: #000000;
+    border-radius: 5px;
+    border: #7c7676 1px solid;
+
+    margin-left: -25px;
+}
+.lang .mundo i{
+    margin-top: 6%;
+   
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
+.copy {
+    color: #7c7676;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.copy:hover {
+    color: #ffffff;
+}
+
+/*
+
+@media screen and (min-width: 768px) {
+    .social {
+        flex-wrap: nowrap;
+    }
+
+    .social p {
+        margin: 0 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .social {
+        flex-wrap: wrap;
+    }
+
+    .social p {
+        margin: 0 10px;
+    }
+
+    .lang {
+        margin-top: 0;
+    }
+
+    .copy {
+        margin-top: 0;
+    }
+}
+
+*/

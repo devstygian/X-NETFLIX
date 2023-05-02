@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.maincon {
+    margin-top: -35px;
+}
+
+body {
+    background: rgb(5, 5, 24);
+    /* margin-bottom: 5000px; */
+}
+
+.xnetflix {
+    color: red;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 40px;
+    padding-top: 30px;
+}
+
+.mainbox {
+    height: 200%;
+    width: 100%;
+    background-image: linear-gradient(rgb(5, 5, 24), rgba(39, 44, 54, 0.4), rgba(48, 54, 66, 0.4), rgb(5, 5, 24)), url(Netflix-Background.jpg);
+    margin-top: -10px;
+    background-size: cover;
+    position: absolute;
+
+
+
+
+}
+
+.word {
+    color: #fff;
+    margin-left: 180px;
+}
+
+.bigword {
+    margin-top: 150px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.smallword {
+    margin: 43px auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.form-box {
+    margin-left: 180px;
+}
+
+.input-field {
+    width: 28.5%;
+    padding: 20px 20px;
+    margin: -20px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border: 2px solid #9c9a9a;
+    border-radius: 4px;
+    outline: none;
+    background: rgba(24, 24, 24, 0.733);
+    font-size: 18px;
+    color: #ffff;
+}
+
+.btn {
+    margin-top: -60px;
+    background-color: red;
+    width: 260px;
+    height: 63px;
+    border: none;
+}
+
+.btn {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.Sign-in {
+
+
+    color: #ffff;
+    background-color: red;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.signbox {
+    margin-left: 91%;
+    margin-top: -39px;
+}
+
+.signword {
+    color: #ffff;
+    text-decoration: none;
+}
+.signword:hover {
+    text-decoration: none;
+}
+.lang {
+
+    padding: 25px;
+    margin-top: -70px;
+
+}
+
+.lang .mundo a {
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 38px;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #000000c5;
+    border-radius: 5px;
+    border: #7c7676 1px solid;
+    margin-left: 81%;
+
+}
+
+.con-box {
+
+
+    position: relative;
+    margin-left: -7.5%;
+    margin-top: 150px;
+    width: 103%;
+    background: linear-gradient(333.08deg, #000235 29.2%, #010F42 51.93%, #cf0e18 111.25%);
+    border-radius: 10px;
+    padding-top: 5px;
+
+}
+
+.enjoy {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.enjoy-note {
+    color: #ffff;
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.img1 {
+    margin-left: 45%;
+    margin-top: -25%;
+}
+
+.line1 {
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    width: 90%;
+    display: block;
+    margin-left: 50px;
+}
+
+.img2 {
+    margin-left: 50px;
+}
+
+.watch {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 55%;
+    margin-top: -30%;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+
+}
+
+.watch-note {
+    color: #ffff;
+    font-size: 20px;
+    margin-left: 670px;
+    font-weight: bold;
+    margin-top: -7%;
+    padding-bottom: 1000px;
+}
+
+.line2 {
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    width: 90%;
+    display: block;
+    margin-left: 50px;
+    margin-top: -65%;
+
+}
+
+.create {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+
+}
+
+.kids-note {
+    color: #ffff;
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+    padding-bottom: 100px;
+
+}
+
+.img3 {
+    margin-left: 50%;
+    margin-top: -35%;
+}
+
+.line3 {
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    width: 90%;
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.Download {
+    color: #ffff;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 47%;
+    margin-top: -30%;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+
+}
+
+.save-note {
+    color: #ffff;
+    font-size: 20px;
+    margin-left: 580px;
+    font-weight: bold;
+    margin-top: -7%;
+    padding-bottom: 150px;
+}
+
+.img4 {
+    margin-left: -35px;
+    margin-top: 30px;
+}
+
+.twoinone {
+    margin-top: 10%;
+}
+
+
+.word2 {
+    color: #fff;
+
+}
+
+.smallword2 {
+    margin: 43px auto;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.form-box2 {
+    margin-left: -1px;
+}
+
+
+
+
+
+.footer {
+
+    margin-top: 150px;
+
+    background-color: transparent;
+
+
+}
+
+.footer .social {
+    /*display: flex;
+    flex-wrap: wrap;*/
+
+
+    padding: 25px;
+}
+
+.contact {
+    font-size: 25px;
+    color: #7c7676;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+
+}
+
+.FQ {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #7c7676;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.cooke {
+
+    font-size: 20px;
+    color: #7c7676;
+    text-decoration: none;
+}
+
+.center {
+    margin-top: -65px;
+    margin-left: 126px;
+    font-size: 20px;
+    color: #7c7676;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+.info {
+    margin-top: 10px;
+    margin-left: 126px;
+    font-size: 20px;
+    color: #7c7676;
+    text-decoration: none;
+}
+
+.Terms {
+    margin-top: -65px;
+    margin-left: 250px;
+    font-size: 20px;
+    color: #7c7676;
+    text-decoration: none;
+}
+
+.privacy {
+    margin-top: -27px;
+    margin-left: 375px;
+    font-size: 20px;
+    color: #7c7676;
+    text-decoration: none;
+}
+
+.lang2 .mundo2 {
+    margin-top: 25px;
+    padding: 25px;
+    margin-left: 1px;
+
+}
+
+.lang2 .mundo2 a {
+    font-size: 1rem;
+    color: #7c7676;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-decoration: none;
+
+    padding: 10px 15px;
+    background-color: #000000;
+    border-radius: 5px;
+    border: #7c7676 1px solid;
+
+    margin-left: -25px;
+}
+
+.lang2 .mundo2 i {
+    margin-top: 6%;
+
+
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.copy2 {
+    color: #7c7676;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 25px;
+    padding-bottom: 50px;
+
+}
+
+.copy2:hover {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}

@@ -1,0 +1,128 @@
+<!--
+Date I start : April 26, 2023
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>X-Netflix</title>
+
+        <link rel="stylesheet" href="color.css">
+        <link rel="website icon" type="png" href="Netflix logo2.png">
+
+        <script src="https://kit.fontawesome.com/f02a36f28e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap">
+        
+                <div class="mainbox">
+                    <p class="xnetflix">NETFLIX</p>
+                    <div class="form-box">
+                        <p class="signin">Sign In</p>
+                        <form id="register" class="input-group">
+                            
+                            <form>
+                            
+                                <input type="email" class="input-field" id="email" name="email" placeholder="Email or phone number" required>
+                            
+                                <input type="password" class="input-field" id="password" name="password" minlength="8" placeholder="Password"
+                                    required>
+                            
+                            
+                            
+                            
+                                <p>
+                                    <input type="checkbox" id="showPasswordCheckbox" onclick="showPassword()">
+                                    <label class="words" for="showPasswordCheckbox">Show password</label>
+                                </p>
+                            
+                                <script>
+                                    function showPassword() {
+                                        var password = document.getElementById("password");
+                                        var checkbox = document.getElementById("showPasswordCheckbox");
+                                        if (checkbox.checked) {
+                                            password.type = "text";
+                                        } else {
+                                            password.type = "password";
+                                        }
+                                    }
+                                </script>
+                            
+                            
+                            
+                                <button type="submit" class="submit-btn">Sign In</button>
+                                <div id="error-message" style="display: none;">Invalid email or password. Please try again.</div>
+                            
+                            
+                            
+                                <label class="words" for="remember-me">
+                                    <p><input type="checkbox" id="remember-me">
+                                        Remember Me</p>
+                                </label>
+                            
+                                <p class="help"><a class="helps" href="#">Need help?</a></p>
+                            
+                                <p class="ask">New to Netflix?<a class="signup" href="/first page/index.html"> Sign up now.</a></p>
+                            
+                                <p class="bot">This page is protected by Google reCAPTCHA to ensure you're not a bot
+                                    <a class="learn" href="#">Learn more.<a>
+                                </p>
+                            
+                            </form>
+                            
+                            <script>
+                                const form = document.querySelector('form');
+                                const emailInput = document.querySelector('#email');
+                                const passwordInput = document.querySelector('#password');
+                                const errorMessage = document.querySelector('#error-message');
+
+                                form.addEventListener('submit', (event) => {
+                                    if (!emailInput.checkValidity() || !passwordInput.checkValidity()) {
+                                        event.preventDefault();
+                                        errorMessage.style.display = 'block';
+                                    }
+                                });
+                            </script>
+                    </div>
+                    <section class="footer">
+                        <div class="social">
+                    
+                            <a class="contact" href="#">Questions? Contact us.</a>
+                            
+                            <p class="FQ"><a class="FQ" href="#">FAQ</a></p>
+
+                            <p class="cooke" ><a class="cooke" href="#">Cookie Preferences</a></p>
+
+                            <p class="center"><a class="center" href="#">Help Center</a></p>
+
+                            <p class="info"><a class="info" href="#">Corporate Information</a></p>
+
+                            <p class="Terms"><a class="Terms" href="#">Terms of Use</a></p>
+
+                            <p class="privacy"><a class="privacy" href="#">Privacy</a></p>
+
+
+                            <section class="lang">
+                                <div class="mundo">
+                                        
+                                    <a class="mundo" href="">
+                                        <i class="fa-solid fa-globe"></i> English
+                                    </a>
+                                                
+                                </div>
+                            </section>
+                            
+                            
+                        </div>
+                        <p class="copy">DevStygian © 2023 | ALL RIGHTS RESERVED</p>
+                    </section>
+            
+    </body>
+</html>

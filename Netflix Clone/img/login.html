@@ -1,0 +1,116 @@
+<!--
+Date I start : April 26, 2023
+
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Netflix</title>
+
+    <link rel="stylesheet" href="color.css">
+    <link rel="website icon" type="png" href="Netflix logo2.png">
+
+    <script src="https://kit.fontawesome.com/f02a36f28e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap">
+    
+
+        
+            <div class="mainbox">
+                <p class="xnetflix">NETFLIX</p>
+                <div class="form-box">
+                    <p class="signin">Sign In</p>
+                    <form id="register" class="input-group">
+                    
+                        
+                        <input type="email" class="input-field" placeholder="Email or phone number" required>
+                        
+                        <input type="password" class="input-field" id="theInput" placeholder="Password" required>
+                    
+                        <p class="words"><input class="checkbox" type="checkbox" onclick="OnFunction()"> Show Password </p>
+                        
+                        <script>
+                            function OnFunction() {
+                                var x = document.getElementById("theInput");
+                                if (x.type === "password") {
+                                    x.type = "text";
+                                } else {
+                                    x.type = "password";
+                                }
+                            }                
+                        </script>
+
+                        <button type="submit" id="clearButton" class="submit-btn">Sign In</button>
+
+                        <script> 
+                        document.getElementById('register').addEventListener('submit', function () {
+                                location.reload();
+                            });
+
+                        document.getElementById('register').addEventListener('submit', function (event) {
+                                event.preventDefault(); // Prevent form submission
+                                // Perform form validation and registration logic here
+                                // Replace this with your actual registration logic
+                                
+                                alert('Attention: These is a test website. Do you want to continue? Click "ok"');
+                                alert('Registration complete.');
+                                alert('PAGE NOT FOUND. ERROR 4545');
+                                                               
+                            });
+                        </script>
+                        <p  class="words"><input type="checkbox"  onclick="OnFunction()"> Remember me </p>
+
+                        <p  class="help"><a class="helps" href="#">Need help?</a></p>
+
+                       <p class="ask">New to Netflix?<a class="signup" href="/second page/index.html"> Sign up now.</a></p>
+
+                    <p class="bot">This page is protected by Google reCAPTCHA to ensure you're not a bot
+                        <a class="learn" href="#">Learn more.<a></p>
+
+                           
+                               
+                            
+                </div>
+            <section class="footer">
+                <div class="social">
+            
+                    <a class="contact" href="#">Questions? Contact us.</a>
+                    
+                    <p class="FQ"><a class="FQ" href="#">FAQ</a></p>
+
+                    <p class="cooke" ><a class="cooke" href="#">Cookie Preferences</a></p>
+
+                    <p class="center"><a class="center" href="#">Help Center</a></p>
+
+                    <p class="info"><a class="info" href="#">Corporate Information</a></p>
+
+                    <p class="Terms"><a class="Terms" href="#">Terms of Use</a></p>
+
+                    <p class="privacy"><a class="privacy" href="#">Privacy</a></p>
+
+
+                <section class="lang">
+                    <div class="mundo">
+                            
+                        <a class="mundo" href="">
+                            <i class="fa-solid fa-globe"></i> English
+                        </a>
+                                    
+                    </div>
+                </section>
+                    
+                    
+                </div>
+                <p class="copy">DevStygian © 2023 | ALL RIGHTS RESERVED</p>
+            </section>
+         </div>
+    </body>
+</html>

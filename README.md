@@ -1,6 +1,9 @@
 # X-NETFLIX
 Netflix landing page clone 
 
+> **Note**
+> This is not responsive website and only vailable for desktop and laptop.
+
 ## What is a Netflix landing page clone?
 
 A Netflix landing page clone is a website that emulates the design and layout of the landing page of the popular streaming platform, Netflix. The landing page is the first page that users see when they visit the Netflix website, and it is designed to showcase featured content and provide a quick and easy way for users to sign up or log in.

@@ -2,7 +2,7 @@
 Netflix landing page clone 
 
 > **Note**
-> This is not responsive website and only vailable for desktop and laptop.
+> This is not responsive website and only available  for desktop and laptop.
 
 ## What is a Netflix landing page clone?
 
